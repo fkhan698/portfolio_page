@@ -1,12 +1,11 @@
 {
-    "name": "faizankhan_portfolio",
-    "version": "1.0.1",
-    "description": "Portfolio Page",
-    "scripts": {
-      "start": "serve",
-    },
-    "dependencies": {
-      "serve": "^10.0.1"
-    },
-    "author": "Faizan Khan"
+  "name": "my-static-site",
+  "version": "1.0.0",
+  "description": "This will load any static html site",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
   }
+}
