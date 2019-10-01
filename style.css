@@ -3,6 +3,12 @@ body {
 
 }
 
+.scrollable-div{
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  }
+
+
 hr {
   width: 175px;
   background-color: black;
