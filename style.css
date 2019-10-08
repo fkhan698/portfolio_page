@@ -64,7 +64,7 @@ width: 100%;
   top: 0;
   width: 100%;
   z-index: 1;
-/*   animation: nav-load var(--load-time) ease-out; */
+  animation: nav-load var(--load-time) ease-out;
   
   
   
