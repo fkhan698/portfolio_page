@@ -1,6 +1,6 @@
 body {
   background-color: #EFF9EB;
-  --load-time: 750ms;
+/*   --load-time: 750ms; */
 }
 
 .scrollable-div{
@@ -47,14 +47,14 @@ width: 100%;
   font-size: 75px;
   color: white;
   font-family: Poiret One;
-   animation: text-load var(--load-time) ease-out;
+/*    animation: text-load var(--load-time) ease-out; */
 }
 
 #openingtext2 {
   font-size: 45px;
   color: white;
   font-family: Poiret One;
-  animation: text-load var(--load-time) ease-out;
+/*   animation: text-load var(--load-time) ease-out; */
 }
 
 
@@ -64,7 +64,7 @@ width: 100%;
   top: 0;
   width: 100%;
   z-index: 1;
-  animation: nav-load var(--load-time) ease-out;
+/*   animation: nav-load var(--load-time) ease-out; */
   
   
   
@@ -260,7 +260,7 @@ width: 100%;
   }
 }
 
-
+/* 
 @keyframes text-load {
     0% {
       transform: translateY(-100%);
@@ -277,5 +277,5 @@ width: 100%;
     100% {
         transform: translatey(0);
     }
-}
+} */
   
