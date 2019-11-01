@@ -3,10 +3,9 @@ body {
   --load-time: 750ms;
 }
 
-.scrollable-div{
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
 
 hr {
